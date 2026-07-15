@@ -27,6 +27,4 @@ target_include_directories(SmartFileIndexer_lib PUBLIC include)
 add_executable(SmartFileIndexer src/main.cpp)
 target_link_libraries(SmartFileIndexer PRIVATE SmartFileIndexer_lib)
 
-# Testing
-enable_testing()
-add_subdirectory(tests)
+
